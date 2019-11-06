@@ -1,0 +1,9 @@
+.header {
+  width: 50%;
+  flex: 0.1;
+}
+
+.header_title {
+  font-size: 6.5vw;
+    font-weight: 700;
+}
