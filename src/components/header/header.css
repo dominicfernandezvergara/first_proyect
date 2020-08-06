@@ -1,0 +1,55 @@
+.header {
+  /* box-sizing resta paddings y margings en el calculo de los withd y heigth  */
+  /* width: calc(100% - 10px - 10px); */
+  /* box-sizing: border-box;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 10px; */
+}
+
+.header-responsive-small {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.logo-image-header-small {
+  max-height: 65px;
+}
+
+.container-menu-button {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+.header-responsive-Large {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header-responsive-Large {
+    display: none;
+  }
+
+  .logo-image-header-small {
+    max-height: 90px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .header-responsive-Large {
+    display: block;
+  }
+
+  .header-responsive-small {
+    display: none;
+  }
+  .logo-image-header-small {
+    display: none;
+  }
+}

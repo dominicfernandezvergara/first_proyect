@@ -1,0 +1,48 @@
+.continer-custom-body-info {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 10px 15px 10px;
+}
+
+.title-custom-body-info {
+  color: #2c6388;
+  font-family: fantasy;
+  font-size: 30px;
+}
+.subtitle-custom-body-info {
+  font-size: 23px;
+  color: #4f2e26;
+}
+
+.text-custom-body-info {
+  margin: 30px 0px 15px 0px;
+  color: #626262;
+  font-size: 14px;
+}
+
+.main-image-custom-body-info {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.secondary-subtitle-custom-body-info {
+  line-height: 28px;
+  color: #ba8042;
+  font-family: cursive;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.secondary-image-custom-body-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: auto;
+  width: 100%;
+  /* background-size: cover; */
+}
+
+.end-points {
+  width: 100%;
+  border-bottom: dotted 2px #2c6388;
+}

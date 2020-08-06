@@ -1,0 +1,27 @@
+.container-menu-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.menu-desktop {
+  display: flex;
+  width: 34%;
+  justify-content: space-evenly;
+}
+
+.button-menu-desktop {
+  color: #2c6388;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+}
+.button-active-menu-desktop {
+  color: #ba8042;
+}
+.menu-desktop-logo {
+  max-height: 120px;
+}

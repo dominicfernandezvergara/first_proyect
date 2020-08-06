@@ -1,0 +1,16 @@
+.container-politic-footer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://mooala.com/wp-content/uploads/2018/02/WoodBackground.jpg");
+}
+
+.button-politic-footer-list {
+  border: none;
+  background-color: transparent;
+  text-align: start;
+  margin: 50px 0px 0px 15px;
+  color: #2c6388;
+  font-weight: bold;
+}
